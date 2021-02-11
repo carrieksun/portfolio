@@ -10,8 +10,7 @@ class Main extends React.Component {
       <div
         className="centered"
         style={{
-          lineHeight:0.9,
-          padding:`0 1.0875rem 1.45rem`
+          lineHeight:1.0,
         }}
         >
         <p>carrie kaili sun is currently </p>
@@ -20,7 +19,7 @@ class Main extends React.Component {
         <p>playing sounds on <a href="nts.live/shows/kaili">NTS</a>,</p>
         <p>and dreaming up new visual worlds.</p>
         <br />
-        <p>+ <a href="mailto:info@carriekaili.com">info@carriekaili.com</a></p>
+        <p><a href="mailto:info@carriekaili.com">info@carriekaili.com</a></p>
         <p>+ <a href="http://instagram.com/kaili_xcx">instagram</a></p>
         <p>+ <a href="http://soundcloud.com/kailidj">soundcloud</a></p>
       </div>

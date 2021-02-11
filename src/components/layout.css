@@ -6,7 +6,7 @@ html {
   overflow-y: scroll;
 }
 body {
-  background-color:#e4eef3;
+  background-color:#ebebeb;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -27,7 +27,7 @@ body {
   transform: translate(-50%, -50%);
 }
 a:link {
-  color: #2F5EEE
+  color: #2F5EEE;
 }
 a:visited {
   color: #F52B90
