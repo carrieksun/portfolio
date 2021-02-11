@@ -6,11 +6,12 @@ html {
   overflow-y: scroll;
 }
 body {
+  background-color:#e4eef3;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: basier_square_monoregular;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -18,6 +19,24 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+a:link {
+  color: #2F5EEE
+}
+a:visited {
+  color: #F52B90
+}
+a:hover {
+  color: #37CB24
+}
+a:active {
+
 }
 article,
 aside,

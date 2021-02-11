@@ -4,6 +4,8 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Scene from "../components/scene"
+import Main from "../components/main"
 
 const IndexPage = () => (
   <Layout>
@@ -19,4 +21,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default () => <Main />
