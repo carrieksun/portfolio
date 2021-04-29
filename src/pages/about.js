@@ -1,22 +1,13 @@
 import React from "react"
-import "./layout.css"
+import "../components/layout.css"
+import Layout from "../components/layout"
 
-class Main extends React.Component {
-  componentDidMount() {
-
-  }
-  render() {
-    return (
-      <div
-        className="centered"
-        style={{
-          lineHeight:1.0,
-        }}
-        >
+const About = () => (
+      <div style={{padding:20}}>
         <p>carrie kaili sun is currently </p>
         <p> in los angeles </p>
         <p>making things move at <a href="http://brud.fyi">brud</a>,</p>
-        <p>playing sounds on <a href="nts.live/shows/kaili">NTS</a>,</p>
+        <p>playing sounds on <a href="http://nts.live/shows/kaili">NTS</a>,</p>
         <p>and dreaming up new visual worlds.</p>
         <br />
         <p><a href="mailto:info@carriekaili.com">info@carriekaili.com</a></p>
@@ -24,7 +15,5 @@ class Main extends React.Component {
         <p>+ <a href="http://soundcloud.com/kailidj">soundcloud</a></p>
       </div>
     )
-  }
-}
 
-export default Main
+export default About
